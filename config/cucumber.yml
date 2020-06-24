@@ -1,0 +1,6 @@
+default: --no-source --color --format pretty -p chrome
+chrome:  BROWSER=chrome
+firefox: BROWSER=firefox
+report_html: -f html --out=reports/report.html
+report_json: -f json --out=reports/report.json
+
